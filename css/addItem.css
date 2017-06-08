@@ -1,0 +1,39 @@
+/* Add Item */
+#addItemForm {
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.col-form-label {
+	color: #800000 !important;
+}
+.form-check-label {
+	color: white !important;
+	-webkit-text-stroke: .5px black;
+}
+#todo {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #F4A460;
+}
+a.close {
+  float: right;
+}
+#fridge {
+	position: relative;
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: #00FF7F;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.highlight {
+  animation: highlight 5s;
+}

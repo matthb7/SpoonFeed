@@ -1,0 +1,26 @@
+/* Parallax */
+.parallax {
+  height: 100vh;
+}
+#img_top {
+  /*background-color: #A9CCE3;*/
+  background: url("../img/myRec.jpg") center no-repeat;
+  background-size: cover;
+}
+#img_mid1 {
+  background: url("../img/myRec.jpg") center no-repeat;
+  background-size: cover;
+  /*background-color: #058dbf;*/
+}
+#img_mid2 {
+  background: url("../img/addFood.jpeg") center no-repeat;
+  background-size: cover;
+}
+#img_mid3 {
+  background: url("../img/history.jpg") center no-repeat;
+  background-size: cover;
+}
+#img_bottom {
+  background-color: #A9CCE3;
+  height: 80vh;
+}

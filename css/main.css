@@ -1,0 +1,138 @@
+/* Main */
+html *{
+	font-size: 18px;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+#master-content {
+	width: 100%;
+}
+.about_wrapper {
+  position: relative;
+  top: 25%;
+  left: 10%;
+  clear: both;
+}
+.about {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: white;
+  background-color: #f99f1a;
+  float: left;
+}
+.about > p {
+  font-size: 3rem;
+}
+#mod1 {
+  margin-left: 5%;
+}
+#mod2 {
+  margin-left: 25%;
+}
+#mod3 {
+  top: 7%;
+  left: 15%;
+}
+#mod4 {
+  top: 42%;
+  left: 2%;
+}
+#mod5 {
+  top: 42%;
+  left: -49%;
+}
+.features_wrapper {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  clear: both;
+}
+.features_title {
+  color: white;
+  float: left;
+  height: 40px;
+  background: #f99f1a;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+}
+.features_title:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 100%;
+  top: 0;
+  border: 20px solid transparent;
+  border-left: 20px solid #f99f1a;;
+}
+.features_example {
+  float: left;
+  margin-left: 20%;
+  color: #FCF3CF;
+  font-size: 4rem;
+  font-family: "Josefin Slab";
+  font-weight: bold;
+}
+#title {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  /*color: #34495E;*/
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Fjalla One", sans-serif;
+}
+.info {
+  width: 100%;
+  color: #777;
+  background-color: white;
+}
+.info > h3, .link > h3 {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0080ff;
+}
+.info > *:not(#link-wrapper) {
+	padding: 3rem;
+	max-width: 40em;
+}
+.center-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer {
+  height: 20%;
+  background-color: #05455c; /* #34495E */
+  color: rgba(255,255,255,.6);
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.footer > p {
+  font-family: 'Play', sans-serif;
+}
+#copyright {
+  position: relative;
+  top: 20%;`
+}

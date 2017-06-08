@@ -1,0 +1,16 @@
+/* Info */
+.education {
+	position: relative;
+	top: 20%;
+	left: 10%;
+	width: 40%;
+	height: 30%;
+	color: #05455c;
+	background-color: white;
+	text-align: center;
+	opacity: 1;
+	padding: 2rem;
+}
+.education > p {
+	font-family: 'Istok Web', sans-serif;
+}
